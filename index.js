@@ -48,7 +48,8 @@ Use the copy function below to do the following:
 function copy(originalFlavors){
   const originalFlavorsCopy = originalFlavors.slice();
   const originalFlavorsSpreadCopy = [...originalFlavors];
-  return copy;
+  console.log(originalFlavorsCopy);
+  console.log(originalFlavorsSpreadCopy);
 }    
 
 
