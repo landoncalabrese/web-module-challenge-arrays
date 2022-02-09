@@ -46,10 +46,10 @@ Use the copy function below to do the following:
 */
 
 function copy(originalFlavors){
-  const originalFlavorsCopy = originalFlavors.slice();
-  const originalFlavorsSpreadCopy = [...originalFlavors];
-  console.log(originalFlavorsCopy);
-  console.log(originalFlavorsSpreadCopy);
+ const originalFlavorsCopy = originalFlavors.slice();
+ const originalFlavorsSpreadCopy = [...originalFlavors];
+ console.log(originalFlavorsCopy);
+ console.log(originalFlavorsSpreadCopy);
 }    
 
 
