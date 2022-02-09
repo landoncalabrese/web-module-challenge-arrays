@@ -45,13 +45,10 @@ Use the copy function below to do the following:
   2. Return a copy of the received array  
 */
 
-function copy(originalFlavors){
- const originalFlavorsCopy = originalFlavors.slice();
- const originalFlavorsSpreadCopy = [...originalFlavors];
- console.log(originalFlavorsCopy);
- console.log(originalFlavorsSpreadCopy);
+function copy(array){
+  return [...array];
 }    
-
+console.log('task 1:', copy(originalFlavors));
 
 
 
